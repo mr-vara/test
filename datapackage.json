@@ -1,0 +1,45 @@
+{
+  "name": "Test",
+  "title": "Test - tile",
+  "version": "0.1",
+  "author": "Vara",
+  "description": "Just for testing OKFN DataPackage Viewer with json data",
+  "keywords": [
+    "Test"
+  ],
+  "last_updated": "2020-01-26",
+  "licenses": [
+    {
+     "name": "ODC-PDDL-1.0",
+     "path": "http://opendatacommons.org/licenses/pddl/",
+     "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "United States Energy Information Administration",
+      "path": "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm",
+      "title": "US Energy Information Administration"
+    }
+  ],
+  "resources": [
+    {
+      "name": "test_json_file",
+      "path": "test_json_file.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "string",
+            "description": "Date in YYYY-MM-DD Format"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "description": "Dollars per Million Btu"
+          }
+        ]
+      }
+    }
+  ]
+}
